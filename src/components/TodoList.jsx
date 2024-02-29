@@ -31,7 +31,7 @@ export default function TodoList() {
           <span className="font-medium p-0">{todo.text}</span>
           <div className="flex gap-2">
             <input
-            className="cursor-pointer"
+            className="cursor-pointer w-[40px]"
               type="checkbox"
               checked={todo.completed}
               onChange={() => handleToggle(todo.id)}

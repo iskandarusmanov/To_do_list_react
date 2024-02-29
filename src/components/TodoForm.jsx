@@ -24,7 +24,7 @@ export default function TodoForm() {
         onChange={(e) => setNewTodo(e.target.value)}
       />
       <button
-        className="bg-blue-700 text-white p-[9px] rounded-md rounded-bl-none rounded-tl-none px-4 font-semibold"
+        className="bg-blue-700 border-blue-700 text-white p-[9px] rounded-md rounded-bl-none rounded-tl-none px-4 font-semibold"
         type="submit"
       >
         Add Todo
